@@ -1,7 +1,8 @@
 services:
   - type: web
-    name: diabetes-classifier             # any unique name
+    name: diabetes-classifier         # Can be any unique name
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python app.py"
+
